@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4.4 GitHub Profile</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="nav-bar-container">
+  <div class="nav-bar">
+    <ul class="nav">
+      <li class="githubcat"><i class="fa fa-github" style="font-size:32px; margin-top:4px;"></i></li>
+      <li class="searchbox"><input type="text"
+         data-hotkey="s" name="q" placeholder="Search GitHub" aria-label="Search
+          GitHub" data-global-scope-placeholder="Search GitHub" data-repo-scope-
+          placeholder="Search" tabindex="1" autocapitalize="off"></li>
+      <li>Pull request</li>
+      <li>Issues</li>
+      <li>Gist</li>
+  </ul>
+  <ul class="profile">
+    <li><i class="fa fa-bell"></i></li>
+    <li></li>
+  </ul>
+  </div>
+  </div>
+  <div class="inner-container">
+    <div class="inner-contained">
+  <div class="sidebar">
+      <ul class="user-info"></ul>
+  </div>
+  <div class="repositories">
+    <ul class="repo-list"></ul>
+  </div>
+</div>
+</div>
+</div>
+
+<script id="user-template" type="text/x-handlebars-template">
+  <li class="user"><img src="{{avatar_url}}"></img></li>
+  <li class="user"><h1>{{name}}</h1><h2>{{login}}</h2></li>
+  <li class="user">{{location}}</li>
+  <li class="user">{{created_at}}</li>
+  <li class="user">{{followers}}</li>
+
+  <li class="user">{{following}}</li>
+</script>
+<script id="repo-template" type="text/x-handlebars-template">
+<hr>
+  <li class="repo">
+    <a href="{{html_url}}"><h1>{{name}}</h1></a>
+<h2>{{updated_at}}</h2>
+  </li>
+  <li class="repo-stats">
+    {{language}} {{stargazers_count}} {{forks_count}}
+  </li>
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="bower_components/handlebars/handlebars.min.js"></script>
+<script src="js/main2.js"></script>
+</body>
+</html>

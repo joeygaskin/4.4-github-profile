@@ -1,0 +1,20 @@
+{
+  "name": "4.4-github-profile",
+  "version": "0.0.0",
+  "authors": [
+    "Joey <me@joeygaskin.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~4.0.2",
+    "jquery": "~2.1.4",
+    "moment": "~2.10.6"
+  }
+}

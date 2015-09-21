@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica; }
+
+.container {
+  padding: 0px;
+  margin: 0px;
+  height: 40%; }
+
+.nav-bar-container {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #f5f5f5; }
+
+.nav-bar {
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+  width: 980px; }
+
+.nav-bar ul {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.nav-bar li {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  padding: 4px; }
+
+.nav {
+  display: inline-block;
+  line-height: 2px; }
+
+.profile {
+  display: inline-block; }
+
+.searchbox input {
+  background-color: #fff;
+  border: 0;
+  box-shadow: none;
+  min-height: 22px;
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 5px;
+  line-height: 16px;
+  width: 250px; }
+
+.inner-container {
+  height: 10%;
+  background-color: #fff; }
+
+.inner-contained {
+  margin: 0 auto;
+  width: 980px; }
+
+.sidebar {
+  vertical-align: top;
+  display: inline-block;
+  width: 230px; }
+
+.user-info {
+  list-style: none;
+  vertical-align: bottom;
+  display: inline-block;
+  width: 230px;
+  height: 300px;
+  padding: 0px; }
+
+.user img {
+  border-radius: 6px; }
+
+.user h1 {
+  font-size: 26px;
+  line-height: .5; }
+
+.user h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 10px;
+  color: #666; }
+
+.repositories {
+  display: inline-block; }
+
+hr {
+  display: block;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+  border-style: inset;
+  border: 1px solid #ddd; }
+
+.repo-list {
+  list-style: none;
+  width: 730px;
+  padding: 0px; }
+
+.repo {
+  display: inline-block;
+  width: 85%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.repo h1, a {
+  color: #4078c0;
+  font-size: 20px; }
+
+.repo h2 {
+  font-weight: normal;
+  font-size: 13px;
+  color: #888; }
+
+.repo-stats {
+  text-align: right;
+  display: inline-block;
+  margin-right: 0px;
+  vertical-align: top;
+  margin-top: 35px;
+  font-size: 13px;
+  color: #888; }
+
+/*# sourceMappingURL=main.css.map */
